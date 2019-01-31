@@ -1,0 +1,7 @@
+<h2>Input-parent to child</h2>
+<h4>Parent</h4>
+<form>
+  Name: <input type="text" name="name" [(ngModel)]="name">
+</form>
+
+<app-child [Name]="name"></app-child>
